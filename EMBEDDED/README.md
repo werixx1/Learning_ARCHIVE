@@ -7,6 +7,7 @@ Resource | Type | Time | About | Watched/Read
 📚[Books list](https://old.reddit.com/r/AskElectronics/wiki/education#wiki_books_worth_reading) | List of resources | - | Books on electronics | -
 📚[Book about electric circuts](https://www.allaboutcircuits.com/textbook/) | Book | - | Book with examples on basics on electronics | 🔄
 📚[List of free electronics circuit simulators](https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators) | List of resources | - | Wikipedia list of circuit simulators | -
+📚[Fav website to learn, lots of topics](https://learn.sparkfun.com/tutorials) | Website | - | Many electronic topics explained clearly | -
 
 ### EMBEDDED / FIRMWARE 
 Resource | Type | Time | About | Watched/Read
