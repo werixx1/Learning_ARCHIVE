@@ -87,6 +87,23 @@ ds_of_boxes = boxLabelDatastore(table)
 ```
 ![alt text](/resources/imgs/MATLAB_3.png)
 (labels for these objects here are 4 and 6, but usually would be categories names)
+
+- **Plots next to each other**
+  - subplot(x,y,z): x - rows, y - columns, z - position of the subplot on the figure
+```matlab
+figure;
+subplot(1,2,1);
+plot(...);
+subplot(1,2,2);
+plot(...);
+```
+
+- Find rows of a table which **meet a specific condition**
+```matlab
+results = table_name(table_name.column == value, :);
+```
+(or use **all data()**)
+
 ## Training a network from 'scratch' 
 Example with training a simple CNN for image classification
 ### Setup for Experiment manager 
