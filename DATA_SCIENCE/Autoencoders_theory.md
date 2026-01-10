@@ -30,6 +30,7 @@ Autoencoders learn efficient **representations of data**, primarily for the purp
 - lower-dimensional representation of data that captures its essential features and underlying patterns is called **LATENT SPACE**
 
 **Structure**
+
  ```input -> ENCODER -> CODE (bottleneck, most compressed part) -> DECODER -> output```
 ![](/resources/imgs/Autoencoder.png)
  - autoencoders work so great in **anomaly detection** because they can easly tell when something doesn't fit their learned status quo in data (since it learns most important patterns to reconstruct data from it) 

@@ -19,13 +19,15 @@
 > Key words: time-frequency analysis, time series data
 
 **Wavelets** are mathematical functions that cut up data into different frequency components, and then study each component with a resolution matched to its scale (basically taken a wave they can detect different frequencies on it and place them in time, opposite to Fourier transform that doesn't consider time space when analysing waveforms, the wavelet transform provides a much richer representation that captures both **when** and **which** frequencies are present in a signal). They are very useful in situations where the signal contains **discontinuities** and **sharp spikes**.
+
 - "In wavelet analysis, the scale that we use to look at
 data plays a special role. Wavelet algorithms process data at different scales or resolutions. If we look at a signal with a large “window,” we would notice gross features. Similarly, if we look at a signal with a small “window,” we would notice small features. **The result in wavelet analysis is to see both the forest and the trees, so to speak**"
-<br>
+
 - Wavelet analysis is the breaking up of a signal into **shifted** and **scaled** versions of the original (or **mother**) **wavelet** (a mother wavelet is a specific wavelet function that is used to create a set of wavelets through shifting (translation) and scaling (dilation))
 - Mother wavelet is  chosen based on the characteristics of the signal. 
 Examples of wavelet types:
-    ![](/resources/imgs/wavelets_4.png)
+![](/resources/imgs/wavelets_4.png)
+
 - Conditions to consider wave a wavelet:
 
 | Zero mean   | Finite energy |

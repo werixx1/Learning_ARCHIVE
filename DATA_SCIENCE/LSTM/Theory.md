@@ -28,6 +28,7 @@ Example:
 
 
 **LSTMs solving the problem**
+
 LSTMs are special kind of RNNs, capable of learning **long-term dependencies** in sequential data where order matters (kinda like undestanding the context of the whole sentence/paragraph rather just remembering one word before last word).
 
 - They solve the problem of RNNs struggling with remembering long-term dependencies in data (that can often be crucial for making correct predictions) caused by **vanishing/exploding gradient problem** (when during training gradient either shrink or grow too large causing model to either think that earlier information is irrevelant or too important, no real learning is being done in that scenario) by their **use of gates** that decide how to maintain informations and pass it through cells optimaly:
@@ -36,6 +37,7 @@ LSTMs are special kind of RNNs, capable of learning **long-term dependencies** i
     - **Output Gate** - decides which parts of the cell state to output (push to another cell)
 <br>
 - LSTM cell structure:
+
 ![](/resources/imgs/LSTM_1.png)
 
 - Gates explained:
