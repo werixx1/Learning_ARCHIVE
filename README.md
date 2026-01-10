@@ -8,12 +8,12 @@
 -->
 <h3 align="center">Learning Archive</h3>
   <p align="center">
-    Basically a placeholder for my notes on compsci / tech topics that interest me and I want to pursue with resources to tutorials, courses, lectures etc to keep track on them:)
+    Basically a placeholder for my notes on compsci / tech topics that interest me or I want to pursue with resources to tutorials, courses, lectures etc to keep track on them:)
   </p>
 </div>
   <ul>
     <li>Each topic folder contains a README file with all useful links on covered topics </li>
-    <li>Images are either created by me in Figma or taken from tutorials (imgs folder)</li>
+    <li>Images are either created by me in Figma or taken from tutorials (checking markdown code will show resource link) </li>
     <li>its mostly ponglish :p</li>
     <li>Tags meaning:
       <ul> 
@@ -22,22 +22,3 @@
         <li> 📚- book / article
       </ul>
 </ul> 
-
-
-<!-- [![Youtube Video](https://github.com/user-attachments/assets/bf505b24-bd90-4d7a-97dc-2e1fee267a6e)](https://www.youtube.com/watch?v=HD5YaDOctx4) -->
-<!--
-<h3 align="center">Interests overlap chart</h3>
-
-<div align="center">
-    <img src="imgs/interests.png"  width="620" height="350">
-  </a>
-</div>
--->
----
-
-### Todo
-- [x] link names and division for topics in resources
-- [x] KMP algo
-- [x] better files structure
-- [x] better notes structure, make template
-- [ ] upload files from previous years
