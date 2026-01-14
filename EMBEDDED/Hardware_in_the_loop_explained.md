@@ -19,12 +19,11 @@
 > Key words: real-time testing, simulation, automotive
 
 HIL is testing method for embedded systems, connecting a **real controller** (like a car's ECU) (I/O pins) to a fast **real-time simulator** that **mimics** the physical world (sensors, actuators, plant). 
-
 ![](https://www.ansys.com/content/dam/web/glossary/hardware-in-the-loop-schematic.jpg)
-
 - **ECU**: device that runs the software and provides I/O to the plant it controls[1](https://www.ansys.com/simulation-topics/what-is-hardware-in-the-loop-testing) (like vfd).
 
 Basically: you have a real device, like vfd to control motor used in a elevator, but you lack the real motor (and usually also elevator in that case lol). Instead of connecting vfd to an actual device you don't own, you use **simulated world** that acts like an real life machine (and enviroment factors such as: charge, short-circuts, malfunctions etc) which makes drive 'think' it controls an actual appliance.
+
 `real controlling device + make-believe machine/enviroment`
 (in some cases HIL uses a mix of virtual and physical components connected to each other)
 
